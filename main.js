@@ -17,5 +17,32 @@ function changeTitle(){
   document.getElementById('title').innerText = 'nuevo titulo'
 }
 
+// PSEUDOCODIGO
+function tituloAleatorio(){
+  console.log('tituloAleatorio')
+  const ejerciciosGym = ['Press de banca','Elevaciones laterales','Remo al menton','Fondos','Dominadas','sentadillas','abdominales']
+  const colores = ['red','blue','yellow','green']
+  
+  let ejercioAleatorio = ejerciciosGym[ Math.floor(  Math.random() * ejerciciosGym.length  )]
+  let colorAleatorio = colores[ Math.floor(  Math.random() * colores.length  )]
+  document.getElementById('title').innerHTML = ejercioAleatorio
+  document.getElementById('title').style.backgroundColor = colorAleatorio
+}
+
+
+
+
+
+// PSEUDOCODIGO
+function tirarDados(){  
+  let dado1 = Math.ceil( Math.random() * 6)
+  let dado2 = Math.ceil( Math.random() * 6)  
+  document.getElementById('dado1').innerText = dado1
+  document.getElementById('dado2').innerText = dado2
+}
+// agregar estilos
+
+
+
 
 

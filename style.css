@@ -1,0 +1,13 @@
+
+
+.dado {
+    width: 100px;
+    height: 100px;
+    display: block;    
+    border: 1px solid #464646;
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 15px;
+    box-shadow: 5px 4px 6px 0px grey;
+}
